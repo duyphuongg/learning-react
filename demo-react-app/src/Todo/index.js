@@ -30,6 +30,8 @@ function LearnUseReducer() {
 
   return (
     <TodoStyle theme={context.theme}>
+      <button onClick={context.handleChangeTheme}>Change Theme</button>
+
       <div className={`${context.theme} todo-wrap`}>
         <input
           type="text"
